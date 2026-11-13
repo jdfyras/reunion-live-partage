@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+# Jamais d'audio ni de transcription de réunion dans le dépôt
+*.mka
+*.wav
+*.live.txt
+*.ffmpeg.log
+*-compte-rendu.md
+*.flac
+*.log
+# Environnement et modèles de l'outil : installés sur place, jamais versionnés
+outil/.venv/
+outil/models/
+.venv/

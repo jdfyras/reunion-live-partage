@@ -1,0 +1,11 @@
+# Dépendances directes de l'outil, aux versions de la machine d'origine (Python 3.12, CPU).
+# torch et torchaudio s'installent avant, depuis l'index CPU de PyTorch (voir README.md).
+transformers==5.20.1
+faster-whisper==1.2.1
+# av 19 casse le décodage de faster-whisper : rester en 18.1.0.
+av==18.1.0
+pyannote-audio==4.0.7
+soundcard==0.4.5
+soundfile==0.14.0
+scipy==1.18.1
+numpy==2.5.4
